@@ -113,9 +113,10 @@ lot of difference in total time spent, and output quality.
 
 After CAM understands everything you want it to do, it will make a g-code file. The g-code file is a
 list of instructions for the Controller. It is important that the instructions are compatible with
-the controller you have. If you bought a controller from V1Engineering's shop, then it is running
+the controller you have. If you bought a controller from V1Engineering's shop, then it is usually running
 Marlin, and the CAM software needs to be configured to output g-code files compatible with the
-Marlin controller.
+Marlin controller. The newest controller is the Jackpot and it run FluidNC which is GRBL interpreter is diferent from Marlin. Review this site for details
+http://wiki.fluidnc.com/
 
 There is a lot more detailed information in the [Milling Basics](../tools/milling-basics.md),
 [Estlcam Basics](../software/estlcam-basics.md), and [Estlcam 2.5D](../software/estlcam-2p5d.md).
